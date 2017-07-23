@@ -7,6 +7,9 @@ body {
   font-family: Helvetica;
 }
 
+.content {
+  max-width: 900px;
+}
 .HomePage {
   width: 600px;
   margin: 0 auto;
@@ -23,12 +26,23 @@ body {
   list-style: none;
 }
 
+ul.Header{
+  /*display: inline-block;*/
+  display: flex;
+  align-items: center;
+  height:30px;
+}
+
 .Header li {
   padding: 0 12px;
+  display: inline-block;
 }
 
 .Header	a {
   color: white;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .FeedItem {
@@ -39,7 +53,11 @@ body {
 }
 
 .Image {
-  width: 100%;
+  max-width: 100%;
+}
+.Image--header {
+  width: 30px;
+  max-height: 30px;
 }
 
 .Form {
