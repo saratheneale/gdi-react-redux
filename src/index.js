@@ -14,5 +14,3 @@ ReactDOM.render(
     document.getElementById('my-second-component')
 );
 
-
-

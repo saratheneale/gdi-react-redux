@@ -58,6 +58,7 @@ ul.Header{
 .Image--header {
   width: 30px;
   max-height: 30px;
+  width: 100%;
 }
 
 .Form {

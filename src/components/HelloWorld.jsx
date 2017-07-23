@@ -21,3 +21,4 @@ class HelloWorld extends React.Component {
 }
 
 export default HelloWorld;
+// make a class component that renders 'Hello World' in a div
